@@ -1,4 +1,4 @@
-# 卷积神经网络对MNIST数据集识别的训练和测试
-## mnist_train.ipynb: 模型训练，训练结果保存在test_model文件夹下
-## img_data_producer.ipynb: 用于生成mnist图片，保存在test_images下
-## mnist_test.ipynb: 模型测试代码（对一张手写数字图片进行识别）
+# MNIST model training, test and model saving. with convolutional neural networks.
+ - mnist_train.ipynb: model training，the model is saved in ./test_model
+ - img_data_producer.ipynb: produce the mnist images for testing, the images are saved in test_images
+ - mnist_test.ipynb: a demo for model test with an image.
