@@ -1,5 +1,5 @@
 # learn-tensorflow-master
-TensorFlow learning notes of the book 《深入理解TensorFlow》.
+TensorFlow learning notes.
 
 ## dependence
  - numpy
@@ -7,4 +7,5 @@ TensorFlow learning notes of the book 《深入理解TensorFlow》.
  - TensorFlow 1.4.0
  
 ## Content
- - ch3: TensorFlow basic conception
+ - ch3-basic-conception: 《深入理解TensorFlow》chapter 3, TensorFlow basic conception
+ - mnist-test: MNIST model training, test, model saving.
