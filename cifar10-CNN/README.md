@@ -21,7 +21,7 @@ python train.py --model "cifar10-5layers" --init "Gauss"
 test accuracy = 0.7814
 ```
 
-![cifar10-5layers_Gaussian](/figures/cifar10-5layers_Gaussian.png)
+![cifar10-5layers_Gaussian](./figures/cifar10-5layers_Gaussian.png)
 
 - Xavier initialization
 ```
@@ -29,14 +29,14 @@ python train.py --model "cifar10-5layers" --init "Xavier"
 
 test accuracy = 0.8081
 ```
-![cifar10-5layers_Xavier](/figures/cifar10-5layers_Xavier.png)
+![cifar10-5layers_Xavier](./figures/cifar10-5layers_Xavier.png)
 - He initialization
 ```
 python train.py --model "cifar10-5layers" --init "He"
 
 test accuracy = 0.7968
 ```
-![cifar10-5layers_He](/figures/cifar10-5layers_He.png)
+![cifar10-5layers_He](./figures/cifar10-5layers_He.png)
 
 ### cifar10\_8layers
 - Gaussian initialization
@@ -46,7 +46,7 @@ python train.py --model "cifar10-8layers" --init "Gauss"
 test accuracy = 0.7552
 ```
 
-![cifar10-8layers_Gaussian](/figures/cifar10-8layers_Gaussian.png)
+![cifar10-8layers_Gaussian](./figures/cifar10-8layers_Gaussian.png)
 
 - Xavier initialization
 ```
@@ -55,7 +55,7 @@ python train.py --model "cifar10-8layers" --init "Xavier"
 test accuracy = 0.8175
 ```
 
-![cifar10-8layers_Xavier](/figures/cifar10-8layers_Xavier.png)
+![cifar10-8layers_Xavier](./figures/cifar10-8layers_Xavier.png)
 
 - He initialization
 ```
@@ -64,4 +64,4 @@ python train.py --model "cifar10-8layers" --init "He"
 test accuracy = 0.7703
 ```
 
-![cifar10-8layers_He](/figures/cifar10-8layers_He.png)
+![cifar10-8layers_He](./figures/cifar10-8layers_He.png)
