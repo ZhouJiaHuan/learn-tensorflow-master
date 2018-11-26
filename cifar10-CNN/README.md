@@ -38,7 +38,7 @@ test.sh
 ```
 
 ## Experimental results
-- learning rate = 0.001
+- learning rate = 0.0001
 - training methods = Adam
 - steps = 50,000
 - GPU = NVIDIA 1070
