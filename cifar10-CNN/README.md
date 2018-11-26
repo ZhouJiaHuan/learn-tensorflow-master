@@ -17,23 +17,23 @@ for example, if you want to train the model with "cifar10-5layers" and "Gaussian
 python train.py --model "cifar10-5layers" --init "Gauss"
 ```
 I also provided a shell for you to run all training process at once in Linux:
-```bash
+```sh
 time train.sh
 ```
 ## test the model
 
-```python
+```sh
 python test.py --model model_name --path model_path
 ```
 for example:
 
-```python
+```sh
 python test.py --model "cifar10-5layers" --path "models/cifar10-5layers_Gaussian-50000.data-00000-of-00001"
 ```
 
 test all models at once in Linux:
 
-```bash
+```sh
 test.sh
 ```
 
