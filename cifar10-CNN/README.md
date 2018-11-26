@@ -7,6 +7,36 @@ cifar-10 training and test with CNN  with Tensorflow.
 - matplotlib
 - TensorFlow >= 1.3.0
 
+## train the model
+```sh
+python train.py --model model_name --init init_method
+```
+for example, if you want to train the model with "cifar10-5layers" and "Gaussian" method, running the codes followed:
+
+```sh
+python train.py --model "cifar10-5layers" --init "Gauss"
+```
+I also provided a shell for you to run all training process at once in Linux:
+```bash
+time train.sh
+```
+## test the model
+
+```python
+python test.py --model model_name --path model_path
+```
+for example:
+
+```python
+python test.py --model "cifar10-5layers" --path "models/cifar10-5layers_Gaussian-50000.data-00000-of-00001"
+```
+
+test all models at once in Linux:
+
+```bash
+test.sh
+```
+
 ## Experimental results
 - learning rate = 0.001
 - training methods = Adam
