@@ -1,4 +1,4 @@
-"""plot the training loss
+"""plot the training log
 author: Meringue
 date: 9/1/2018
 """
