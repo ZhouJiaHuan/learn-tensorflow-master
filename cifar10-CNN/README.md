@@ -1,5 +1,5 @@
 # cifar-10-Tensorflow
-cifar-10 training and test with CNN  with Tensorflow.
+cifar-10 training and test with CNN  with Tensorflow. More details can be found here: https://zhoujiahuan.github.io/2018/11/02/CIFAR-10-Tensorflow/#more 
 
 ## dependence
 - Python 2.7 or Python3.x (modify some codes, see codes)
